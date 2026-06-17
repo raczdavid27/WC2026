@@ -1,0 +1,16 @@
+{
+  "admin_key": "demo-admin-key",
+  "odds_api_key": "",
+  "recommender": {
+    "edge_threshold_pp": 4.0,
+    "ev_threshold_pct": 2.0,
+    "lean_ev_threshold_pct": 0.5,
+    "freshness_max_hours": 6.0,
+    "min_confidence_for_bet": 0.55,
+    "kelly_fraction": 0.25,
+    "stake_mode": "flat",
+    "flat_stake_units": 1.0,
+    "bankroll_pct_cap": 0.05,
+    "market_blend_weight": 0.0
+  }
+}

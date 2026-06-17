@@ -1,0 +1,37 @@
+{
+ "n_eval_matches": 2743,
+ "folds": 8,
+ "log_loss": {
+  "dixon_coles": 0.8454,
+  "indep_poisson": 0.8462,
+  "base_rate": 1.0541
+ },
+ "brier_1x2": 0.1654,
+ "improvement_vs_indep_poisson_pct": 0.09,
+ "improvement_vs_base_rate_pct": 19.8,
+ "calibration": {
+  "1x2": {
+   "n": 8229,
+   "log_loss_before": 0.4989,
+   "log_loss_after": 0.4935,
+   "ece_before": 0.0218,
+   "ece_after": 0.0001
+  },
+  "ou25": {
+   "n": 2743,
+   "log_loss_before": 0.6756,
+   "log_loss_after": 0.658,
+   "ece_before": 0.0551,
+   "ece_after": 0.0
+  },
+  "btts": {
+   "n": 2743,
+   "log_loss_before": 0.6795,
+   "log_loss_after": 0.6675,
+   "ece_before": 0.0437,
+   "ece_after": 0.0
+  }
+ },
+ "teams_rated": 262,
+ "history_matches": 11847
+}

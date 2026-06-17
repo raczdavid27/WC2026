@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "wc-insights",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["app.py", "serve"],
+      "port": 5050,
+      "autoPort": true
+    }
+  ]
+}

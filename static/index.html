@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Cup Betting Insights</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>WC Betting Insights <span class="v" id="model-version"></span></h1>
+    <nav>
+      <a href="#/dashboard" data-route="dashboard">Dashboard</a>
+      <a href="#/recommendations" data-route="recommendations">Recommendations</a>
+      <a href="#/performance" data-route="performance">Performance Lab</a>
+    </nav>
+    <span class="meta-pill" id="freshness"></span>
+    <button class="btn refresh-btn" id="refresh-btn" title="Fetch the latest schedule, odds, results and re-score">↻ Refresh data</button>
+  </header>
+  <main id="app"><div class="loading">Loading…</div></main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

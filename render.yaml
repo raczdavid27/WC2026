@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: wc2026-insights
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python app.py refresh
+    startCommand: python app.py serve
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: PYTHON_VERSION
+        value: 3.11.0
+    disk:
+      name: wc2026-data
+      mountPath: /opt/render/project/src
+      sizeGB: 1
